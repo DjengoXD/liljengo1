@@ -2,8 +2,8 @@
   <div  class="contact">
 
  
-    <h1>  <img alt="Vue " src="../assets/peta.png"></h1>
-  
+
+  <FormContact/>
  
   
 
@@ -12,11 +12,10 @@
 </template>
 
 <script>
-  export default {
-    
+import FormContact from '../components/FormContact.vue'
+export default {
+  components: {
+    FormContact,
   }
+}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
